@@ -1,15 +1,15 @@
 package datatypesandvariables;
 
+/*
+    Java has multiple data types for numbers. The three most basic are:
+        int for whole numbers
+        float for decimal numbers up to 8 places
+        double for decimal numbers up to 16 places
+ */
+
 public class Numbers {
 
     public static void main(String[] args) {
-
-        /*
-            Java has multiple data types for numbers:
-            int for whole numbers
-            float for decimal numbers up to 8 places
-            double for decimal numbers up to 16 places
-         */
 
         // TODO: Declare an integer
 

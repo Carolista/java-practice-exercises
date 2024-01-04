@@ -1,37 +1,51 @@
 package conditionals;
 
+/*
+    Use the Java equality operator == to compare primitives
+
+    Use the .equals() method to compare two strings
+
+    Use logical operators && (AND) and || (OR) for making multiple comparisons at once
+
+    Use ! (NOT) to negate boolean equality
+ */
+
 public class Equality {
 
     public static void main(String[] args) {
 
-        /*
-            Use the java equality operator == to compare primitives
-            Use the .equals() method to compare two strings
-         */
-
         /* NUMBERS */
         int num1 = 7;
-        int num2 = 10;
+        int num2 = 13;
         double num3 = 24.15;
         int num4 = 1090;
 
-        // TODO: Check the equality of the expression 2 + 5 with the variable num1 and print the result
+        // TODO: Print several boolean expressions using different operators as specified
 
-        // TODO: Check the equality of the expression 70/5 with num2 and print the result
+        // 2 + 5 is equal to the variable num1
 
-        // TODO: Check if num3 is NOT equal to 24 and print the result
+        // 70/5 is equal to num2
 
-        // TODO: Check if 20 * 18 is greater than or equal to num4 and print the result
+        // num3 is NOT equal to 24
+
+        // 20 * 18 is greater than or equal to num4
+
+        // num1 is greater than 5 OR num2 is greater than 10
+
+        // num3 is less than 30 AND num4 is less than 100
 
 
         /* STRINGS */
         String book = "The Fellowship of the Ring";
-        String greeting = "  hello ";
+        String greeting = "  HeLLo ";
 
-        // TODO: Check the equality of the string "Return of the King" with the book variable and print the result
+        // TODO: Print several boolean expressions as specified
 
-        // TODO: Print the result of comparing "hello" with the greeting variable once trimmed
-        // Hint: use a string method to remove the leading and trailing spaces
+        // The string "The Return of the King" is the same as the value stored in the book variable
+
+        // book contains both 'F' AND 'R'
+
+        // Once trimmed and made case-insensitive, the value of greeting is "hello"
 
     }
 }

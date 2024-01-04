@@ -1,13 +1,18 @@
 package datatypesandvariables;
 
+/*
+    Declare a string variable with the type String
+    Strings must be placed between two double quotes
+
+    Declare a character variable with the type char
+    Characters must be placed between two single quotes
+ */
+
 public class StringsAndCharacters {
 
     public static void main(String[] args) {
 
-        /*
-            Declare a string variable with the type String
-            Strings must be placed between two double quotes
-         */
+        /* DECLARING STRINGS */
 
         // TODO: Declare two strings for the first and last names of one of your favorite authors
 
@@ -16,10 +21,7 @@ public class StringsAndCharacters {
         // TODO: Print the names concatenated with a space between them
 
 
-        /*
-            Declare a character variable with the type char
-            Characters must be placed between two single quotes
-         */
+        /* DECLARING CHARACTERS */
 
         // TODO: Declare characters for the initials of a favorite actor
 
@@ -28,9 +30,7 @@ public class StringsAndCharacters {
         // TODO: Print the initials concatenated with nothing between them
 
 
-        /*
-            Practice using various string methods
-         */
+        /* USING STRING METHODS */
 
         String album = "The Dark Side of the Moon";
 
