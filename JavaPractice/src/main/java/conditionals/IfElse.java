@@ -20,12 +20,12 @@ public class IfElse {
 
     public static void main(String[] args) {
 
-        int TODAY = LocalDate.now().getYear();
+        int CURRENT_YEAR = LocalDate.now().getYear();
 
         // We will use a Scanner object to get user input
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the year you were born (YYYY): ");
-        int userNum = input.nextInt();
+        int birthYear = input.nextInt();
 
         // TODO: Declare a variable to hold a string representing the name of a generation
 
@@ -45,7 +45,7 @@ public class IfElse {
         // TODO: BONUS!
         //  If a year is entered that is less than 1901, modify your code above to print
         //  "Call the Guinness Book of World Records! You are practically ancient." instead
-        //  If a year is entered that is greater than TODAY, print
+        //  If a year is entered that is greater than the current year, print
         //  "Hey, you haven't even been born yet!" instead
 
         input.close();
