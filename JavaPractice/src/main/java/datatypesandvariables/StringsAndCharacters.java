@@ -52,9 +52,5 @@ public class StringsAndCharacters {
         // TODO: Print true or false by using a string method to determine if the word "Light"
         //  exists as a substring in the string above
 
-
-        // TODO: Print true or false by comparing the equality of the string "Dark Side of the
-        //  Moon" to the string above
-
     }
 }
