@@ -1,4 +1,4 @@
-package gettingstarted;
+package getting_started;
 
 /*
     Any Java class which is meant to execute code linearly must have a main method.

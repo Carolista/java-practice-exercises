@@ -1,4 +1,4 @@
-package datatypesandvariables;
+package data_types_and_variables;
 
 /*
     Java has multiple data types for numbers. The three most basic are:

@@ -1,4 +1,4 @@
-package userinput;
+package user_input;
 
 // TODO: Import the Scanner class from java.util
 

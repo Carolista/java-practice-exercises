@@ -1,4 +1,4 @@
-package datatypesandvariables;
+package data_types_and_variables;
 
 /*
     Declare a string variable with the type String
