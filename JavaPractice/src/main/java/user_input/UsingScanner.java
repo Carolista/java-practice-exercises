@@ -11,8 +11,10 @@ package user_input;
 
     Use Scanner class methods like .nextLine() for strings or .nextInt() for int, etc.
 
-    At the very end, always use .close() to end the process.
- */
+    Read this article to learn about why reading in a String after an int can cause unexpected behavior:
+    https://www.geeksforgeeks.org/why-is-scanner-skipping-nextline-after-use-of-other-next-functions/
+
+    At the very end, always use .close() to end the process. */
 
 public class UsingScanner {
 
