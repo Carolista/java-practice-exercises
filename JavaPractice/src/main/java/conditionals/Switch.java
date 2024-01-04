@@ -1,6 +1,5 @@
 package conditionals;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
