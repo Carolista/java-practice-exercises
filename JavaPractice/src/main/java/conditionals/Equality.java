@@ -20,32 +20,28 @@ public class Equality {
         double num3 = 24.15;
         int num4 = 1090;
 
-        // TODO: Print several boolean expressions using different operators as specified
+        System.out.println(2 + 5 == num1);
 
-        // 2 + 5 is equal to the variable num1
+        System.out.println(70/5 == num2);
 
-        // 70/5 is equal to num2
+        System.out.println(num3 != 24);
 
-        // num3 is NOT equal to 24
+        System.out.println(20 * 18 >= num4);
 
-        // 20 * 18 is greater than or equal to num4
+        System.out.println(num1 > 5  || num2 > 10);
 
-        // num1 is greater than 5 OR num2 is greater than 10
-
-        // num3 is less than 30 AND num4 is less than 100
+        System.out.println(num3 < 30 && num4 < 100);
 
 
         /* STRINGS */
         String book = "The Fellowship of the Ring";
         String greeting = "  HeLLo ";
 
-        // TODO: Print several boolean expressions as specified
+        System.out.println(book.equals("The Return of the King"));
 
-        // The string "The Return of the King" is the same as the value stored in the book variable
+        System.out.println(book.contains("F") && book.contains("R"));
 
-        // book contains both 'F' AND 'R'
-
-        // Once trimmed and made case-insensitive, the value of greeting is "hello"
+        System.out.println(greeting.trim().toLowerCase().equals("hello"));
 
     }
 }
