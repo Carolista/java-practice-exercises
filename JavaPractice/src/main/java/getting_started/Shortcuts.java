@@ -13,11 +13,8 @@ package getting_started;
 
 public class Shortcuts {
 
-    // TODO: Use the 'psvm' shortcut with the Tab key to create a main method quickly
-
-
-    // TODO: Inside your new main method, use a shortcut to create a statement
-    //  to print to the console. Print any String or number. Execute the main method to
-    //  to see the result in the console.
+    public static void main(String[] args) {
+        System.out.println("Hey, these shortcuts make coding super efficient!");
+    }
 
 }

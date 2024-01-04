@@ -26,17 +26,14 @@ public class PrintingOutput {
         int numMoons = 1;
         boolean hasIntelligentLife = true;
 
-        // TODO: Print each of the variables given above
+        System.out.println(planet);
+        System.out.println(numMoons);
+        System.out.println(hasIntelligentLife);
 
+        System.out.println(getFormattedSSN("123", "456", "7890"));
 
-        // TODO: Print a formatted SSN using the getFormattedSSN method below,
-        //  where ssn1 is 123, ssn2 is 456, and ssn3 is 7890
-
-
-        // TODO: Print the result of 13 * 17 using the multiplyNums method below
-
-
-        // TODO: Print the result of -4 * 39 using the multiplyNums method below
+        System.out.println(multiplyNums(13, 17));
+        System.out.println(multiplyNums(-4, 39));
 
     }
 
@@ -46,7 +43,7 @@ public class PrintingOutput {
         return ssn1 + "-" + ssn2 + "-" + ssn3;
     }
 
-    private int multiplyNums(int num1, int num2) {
+    public static int multiplyNums(int num1, int num2) {
         return num1 * num2;
     }
 
