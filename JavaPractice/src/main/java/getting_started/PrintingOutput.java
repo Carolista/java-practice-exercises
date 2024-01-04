@@ -11,7 +11,7 @@ package getting_started;
     To print to the console, you use this syntax:
         System.out.println(contentToBePrinted)
 
-    To call a method defined within the same class, you do not need to use
+    To call a static method defined within the same class, you do not need to use
     the 'this' keyword. Just call it directly.
 
     If a method has a return value, you can print it.
