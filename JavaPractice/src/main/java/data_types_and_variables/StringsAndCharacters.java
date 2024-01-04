@@ -6,6 +6,9 @@ package data_types_and_variables;
 
     Declare a character variable with the type char
     Characters must be placed between two single quotes
+
+    To concatenate characters into a string, start with an empty string
+    Example: "" + 'a' + 'b' will evaluate to "ab"
  */
 
 public class StringsAndCharacters {
