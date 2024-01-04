@@ -11,16 +11,16 @@ public class Numbers {
 
     public static void main(String[] args) {
 
-        // TODO: Declare an integer
+        int num1 = 289;
 
-        // TODO: Declare a float
-        //  Either follow the number with an f
-        //  OR cast it to the type by preceding it with (float)
+        float num2 = 5.6f; // option 1
+        float num3 = (float) 5.6; // option 2
 
-        // TODO: Declare a double
+        double num4 = 7.29523942349;
 
-        // TODO: Print each of the variables in a sentence using concatenation
+        System.out.println("I have " + num1 + " reasons why the number " + num2 + " is not as cool as the number " + num4);
 
-        // TODO: Print the sum of all three numbers
+        System.out.println(num1 + num3 + num4);
+
     }
 }
